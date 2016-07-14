@@ -1,0 +1,40 @@
+
+/*Star selects everything*/
+*{
+    border: 1px solid lightgray;
+}
+
+/*id should be unique to each element*/
+#name{
+    
+}
+
+/*class doesnt have to be unique*/
+
+/*element type of elements*/
+h1{
+    color:darkred;
+}
+/*descendent selector: */
+li a{
+    color:red;
+}
+
+li a:hover{
+    color:blue;
+}
+
+/*adjacent selector: for tags that come after other tags*/
+h3+ul{
+    border: 4px solid red;
+}
+
+/*attribute selector*/
+
+a[href="https://www.google.com/"]{
+    background: lightblue;
+}
+
+input[type="checkbox"]{
+    background: blue;
+}
